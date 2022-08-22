@@ -22,7 +22,22 @@ public class BoardDto {
 		private Integer bno;
 		@Schema(description = "글제목")
 		private String title;
-		@Schema(description = "글쓴이")
+		@Schema(descript
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				ion = "글쓴이")
 		private String writer;
 		@Schema(description = "작성시간", example="2022-10-20")
 		private LocalDateTime writeTime;
@@ -46,7 +61,7 @@ public class BoardDto {
 	}
 	
 	@Data
-	@Schema(description = "글 출력 DTO")
+	@Schema(description = "글 출력 DTO") 
 	public static class Read {
 		@Schema(description = "글번호", example="123")
 		private Integer bno;
